@@ -123,7 +123,7 @@ class DummyDataset(Dataset):
         """
         self.num_samples = num_samples
         # Define the path to the folder containing video frames
-        self.base_folder = 'bdd100k/images/track/mini'
+        self.base_folder = '../datasets/train_10k'
         self.folders = os.listdir(self.base_folder)
         self.channels = 3
         self.width = width
